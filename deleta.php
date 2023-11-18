@@ -1,6 +1,6 @@
 <?php 
 
-$host = "localhost";
+    $host = "localhost";
     $user = "root";
     $pass = "";
     $db = "turma_ads4";
