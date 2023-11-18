@@ -18,7 +18,7 @@
             $email 		= $_POST['email'];
             $senha 		= $_POST['senha'];
 
-            sql = "INSERT INTO usuarios (nome, telefone, email, senha) VALUES (:nome, :telefone, :email, :senha)";
+            $sql = "INSERT INTO usuarios (nome, telefone, email, senha) VALUES (:nome, :telefone, :email, :senha)";
 
             $stmt = $pdo->prepare($sql);
 
